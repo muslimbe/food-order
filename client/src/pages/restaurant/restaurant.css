@@ -1,0 +1,62 @@
+.nav-p{
+   margin: 0;
+}
+
+.header{
+   background-color: #232422;
+}
+
+.foods-wrapper{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #232422;
+}
+
+.food_item{
+   margin-right: 10px;
+   background-color: #121311;
+   border-radius: 0.25rem;
+   box-shadow: 3px 3px 3px rgba(100,100,100,0.5);
+}
+
+.food_item:nth-child(4){
+   margin-right: 0;
+}
+
+.myCard{
+   width: 286px;
+   height: 427px;
+   border-radius: 0.25rem;
+   margin-right: 10px;
+   margin-bottom: 24px;
+}
+
+.myCard:nth-child(4n){
+   margin-right: 0;
+}
+
+.myCardImg{
+   width: 100%;
+   height: 215px;
+   border-start-start-radius: 0.25rem;
+   border-start-end-radius: 0.25rem;
+}
+
+.myCardBody{
+   padding: 20px;
+   height: 100%;
+   border-end-start-radius: 0.25rem;
+   border-end-end-radius: 0.25rem;
+}
+
+.food_price{
+   margin-bottom: 25px;
+   color: paleturquoise;
+}
+
+.food_name{
+   margin-bottom: 10px;
+   text-shadow: 1px 1px #000;
+   color: #916D0D;
+}
